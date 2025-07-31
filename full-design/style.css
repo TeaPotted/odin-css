@@ -81,3 +81,48 @@ ul {
     margin: auto;
     border-radius: 5px;
 }
+
+/* SECTION 2 STYLES */
+
+.section2 {
+    border: 1px solid lime;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 120px;
+}
+
+.section2 .images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.section2 .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    text-align: center;
+
+}
+
+.section2 h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.section2 p {
+    max-width: 200px;
+    color: #1F2937;
+}
+
+.section2 img {
+    max-height: 150px;
+}
