@@ -74,6 +74,7 @@ ul {
     padding: 6px 20px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
 
 .section1 img {
@@ -151,4 +152,58 @@ ul {
     font-weight: bold;
     width: fit-content;
     margin-left: auto;
+}
+
+/* SECTION 4 STYLES */
+
+.section4 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0px;
+}
+
+.section4 .content {
+    background-color: #3882F6;
+    padding: 30px 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.section4 strong {
+    font-size:24px;
+    margin-bottom: -20px;
+}
+
+.section4 .sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.section4 p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 20px;
+}
+
+.section4 button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 40px;
+    margin-bottom: 10px;
+    border-radius: 7px;
 }
